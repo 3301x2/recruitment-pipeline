@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: bronze
+    tables:
+      - name: raw_jobs_api
+        description: "Live jobs from Greenhouse API"
+      - name: raw_jobs_history
+        description: "Historical job postings from CSV"

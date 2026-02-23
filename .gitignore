@@ -6,3 +6,7 @@ __pycache__/
 dbt_project/target/
 dbt_project/dbt_packages/
 dbt_project/logs/
+dbt-venv/
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/

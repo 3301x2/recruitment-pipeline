@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_jobs
+    description: "Cleaned and merged job postings from API + CSV"
+    columns:
+      - name: job_id
+        description: "Unique job identifier"
+        tests:
+          - not_null
+      - name: title
+        description: "Job title"
+        tests:
+          - not_null
+      - name: department
+        description: "Cleaned department name (title case)"
+        tests:
+          - not_null
+      - name: source
+        description: "Data origin: api or history"
+        tests:
+          - accepted_values:
+              values: ['api', 'history']

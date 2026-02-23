@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: dim_department
+    description: "Department dimension"
+    columns:
+      - name: department_key
+        tests:
+          - unique
+          - not_null
+      - name: department_name
+        tests:
+          - not_null
+
+  - name: dim_location
+    description: "Location dimension"
+    columns:
+      - name: location_key
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_date
+    description: "Date dimension spine 2015-2026"
+    columns:
+      - name: date_key
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_jobs
+    description: "Fact table — one row per job posting"
+    columns:
+      - name: job_key
+        tests:
+          - unique
+          - not_null
+      - name: department_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_department')
+              field: department_key
+      - name: location_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_location')
+              field: location_key
