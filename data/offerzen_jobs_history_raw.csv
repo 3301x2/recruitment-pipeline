@@ -1,0 +1,317 @@
+job_id,internal_job_id,absolute_url,title,department,location,company_name,open_date,close_date
+6600000000,6600001000,https://job-boards.greenhouse.io/offerzen/jobs/6600000000,Operations Director,OPERATIONS,South Africa,OfferZen,2015-12-01,2016-03-01
+6600000001,6600001001,https://job-boards.greenhouse.io/offerzen/jobs/6600000001,Marketing Manager,Marketing,South Africa,OfferZen,2015-10-01,2016-04-01
+6600000002,6600001002,https://job-boards.greenhouse.io/offerzen/jobs/6600000002,Operations Director,Operations,South Africa,OfferZen,2015-09-01,2016-01-01
+6600000003,6600001003,https://job-boards.greenhouse.io/offerzen/jobs/6600000003,Data Manager,Data,South Africa,OfferZen,2016-04-01,2017-01-01
+6600000004,6600001004,https://job-boards.greenhouse.io/offerzen/jobs/6600000004,Sales Intern,Sales,Netherlands,OfferZen,2016-02-01,2016-05-01
+6600000005,6600001005,https://job-boards.greenhouse.io/offerzen/jobs/6600000005,Data Associate,Data,Netherlands,OfferZen,2016-01-01,2016-12-01
+6600000006,6600001006,,Sales Specialist,Sales,Netherlands,OfferZen,2016-02-01,2016-06-01
+6600000007,6600001007,https://job-boards.greenhouse.io/offerzen/jobs/6600000007,Marketing Director,Marketing,Netherlands,OfferZen,2016-10-01,2017-02-01
+6600000008,6600001008,https://job-boards.greenhouse.io/offerzen/jobs/6600000008,Sales Intern,Sales,South Africa,OfferZen,2016-11-01,2017-01-01
+6600000009,6600001009,https://job-boards.greenhouse.io/offerzen/jobs/6600000009,Data Lead,Data,South Africa,OfferZen,2016-04-01,2016-09-01
+6600000010,6600001010,https://job-boards.greenhouse.io/offerzen/jobs/6600000010,Data Engineer,Data,Netherlands,OfferZen,2016-11-01,2017-08-01
+6600000011,6600001011,https://job-boards.greenhouse.io/offerzen/jobs/6600000011,Data Director,Data,Netherlands,OfferZen,2016-04-01,2016-12-01
+6600000012,6600001012,https://job-boards.greenhouse.io/offerzen/jobs/6600000012,Marketing Associate,Marketing,South Africa,OfferZen,2016-10-01,2017-02-01
+6600000013,6600001013,https://job-boards.greenhouse.io/offerzen/jobs/6600000013,Marketing Lead,Marketing,South Africa,OfferZen,2016-03-01,2016-09-01
+6600000014,6600001014,https://job-boards.greenhouse.io/offerzen/jobs/6600000014,Data Intern,Data,South Africa,OfferZen,2016-11-01,2017-08-01
+6600000015,6600001015,https://job-boards.greenhouse.io/offerzen/jobs/6600000015,Sales Lead,Sales,South Africa,OfferZen,2017-01-01,2017-04-01
+6600000016,6600001016,https://job-boards.greenhouse.io/offerzen/jobs/6600000016,Data Engineer,Data,South Africa,OfferZen,2017-04-01,2018-01-01
+6600000017,6600001017,https://job-boards.greenhouse.io/offerzen/jobs/6600000017,Marketing Engineer,Marketing,Netherlands,OfferZen,2017-07-01,2018-01-01
+6600000018,6600001018,https://job-boards.greenhouse.io/offerzen/jobs/6600000018,Data Associate,Data,South Africa,OfferZen,2017-04-01,2018-04-01
+6600000019,6600001019,https://job-boards.greenhouse.io/offerzen/jobs/6600000019,Data Specialist,Data,Netherlands,OfferZen,2017-10-01,2018-08-01
+6600000020,6600001020,https://job-boards.greenhouse.io/offerzen/jobs/6600000020,Operations Manager,Operations,South africa,OfferZen,2017-09-01,2018-03-01
+6600000021,6600001021,https://job-boards.greenhouse.io/offerzen/jobs/6600000021,Sales Engineer,Sales,South Africa,OfferZen,2017-03-01,2017-07-01
+6600000022,6600001022,https://job-boards.greenhouse.io/offerzen/jobs/6600000022,Marketing Lead,Marketing,Netherlands,OfferZen,2017-10-01,2018-01-01
+6600000023,6600001023,https://job-boards.greenhouse.io/offerzen/jobs/6600000023,Product Associate,Product,Netherlands,OfferZen,2017-09-01,2018-04-01
+6600000024,6600001024,https://job-boards.greenhouse.io/offerzen/jobs/6600000024,Sales Intern,Sales,South Africa,OfferZen,2017-11-01,2018-03-01
+6600000025,6600001025,https://job-boards.greenhouse.io/offerzen/jobs/6600000025,Data Lead,Data,Netherlands,OfferZen,2017-02-01,2017-10-01
+6600000026,6600001026,https://job-boards.greenhouse.io/offerzen/jobs/6600000026,Operations Associate,Operations,Netherlands,OfferZen,2017-01-01,2017-06-01
+6600000027,6600001027,https://job-boards.greenhouse.io/offerzen/jobs/6600000027,Operations Intern,Operations,South Africa,OfferZen,2017-11-01,2018-04-01
+6600000028,6600001028,https://job-boards.greenhouse.io/offerzen/jobs/6600000028,Marketing Intern,Marketing,South Africa,OfferZen,2017-03-01,2017-08-01
+6600000029,6600001029,https://job-boards.greenhouse.io/offerzen/jobs/6600000029,Operations Lead,Operations,South Africa,OfferZen,2017-10-01,2018-03-01
+6600000030,6600001030,https://job-boards.greenhouse.io/offerzen/jobs/6600000030,Sales Engineer,Sales,South Africa,OfferZen,2018-06-01,2018-09-01
+6600000031,6600001031,https://job-boards.greenhouse.io/offerzen/jobs/6600000031,Sales Manager,Sales,South Africa,OfferZen,2018-10-01,2018-12-01
+6600000032,6600001032,https://job-boards.greenhouse.io/offerzen/jobs/6600000032,Marketing Engineer,Marketing,Netherlands,OfferZen,2018-02-01,2018-06-01
+6600000033,6600001033,https://job-boards.greenhouse.io/offerzen/jobs/6600000033,Marketing Specialist,Marketing,Netherlands,OfferZen,2018-09-01,2019-01-01
+6600000034,6600001034,https://job-boards.greenhouse.io/offerzen/jobs/6600000034,Engineering Intern,Engineering,Netherlands,OfferZen,2018-04-01,2018-11-01
+6600000035,6600001035,https://job-boards.greenhouse.io/offerzen/jobs/6600000035,Marketing Lead,Marketing,South Africa,OfferZen,2018-12-01,2019-05-01
+6600000036,6600001036,https://job-boards.greenhouse.io/offerzen/jobs/6600000036,Marketing Manager,Marketing,Netherlands,OfferZen,2018-08-01,2019-02-01
+6600000037,6600001037,https://job-boards.greenhouse.io/offerzen/jobs/6600000037,Operations Manager,Operations,South Africa,OfferZen,2018-02-01,2018-07-01
+6600000038,6600001038,https://job-boards.greenhouse.io/offerzen/jobs/6600000038,Engineering Manager,Engineering,South Africa,OfferZen,2018-10-01,2019-02-01
+6600000039,6600001039,https://job-boards.greenhouse.io/offerzen/jobs/6600000039,Sales Manager,Sales,South Africa,OfferZen,2018-04-01,2018-06-01
+6600000040,6600001040,https://job-boards.greenhouse.io/offerzen/jobs/6600000040,Data Specialist,Data,South Africa,OfferZen,2018-09-01,2019-04-01
+6600000041,6600001041,https://job-boards.greenhouse.io/offerzen/jobs/6600000041,Marketing Director,Marketing,Netherlands,OfferZen,2018-04-01,2018-08-01
+6600000042,6600001042,https://job-boards.greenhouse.io/offerzen/jobs/6600000042,Engineering Intern,Engineering,Netherlands,OfferZen,2018-04-01,2018-10-01
+6600000043,6600001043,https://job-boards.greenhouse.io/offerzen/jobs/6600000043,Product Director,Product,South Africa,OfferZen,2018-02-01,2018-07-01
+6600000044,6600001044,https://job-boards.greenhouse.io/offerzen/jobs/6600000044,Product Lead,Product,Netherlands,OfferZen,2018-07-01,2019-03-01
+6600000045,6600001045,https://job-boards.greenhouse.io/offerzen/jobs/6600000045,Marketing Manager,Marketing,South Africa,OfferZen,2018-11-01,2019-02-01
+6600000046,6600001046,https://job-boards.greenhouse.io/offerzen/jobs/6600000046,Product Engineer,Product,Netherlands,OfferZen,2018-02-01,2018-08-01
+6600000047,6600001047,https://job-boards.greenhouse.io/offerzen/jobs/6600000047,Operations Engineer,Operations,Netherlands,OfferZen,2018-03-01,2018-09-01
+6600000048,6600001048,https://job-boards.greenhouse.io/offerzen/jobs/6600000048,Data Lead,Data,Netherlands,OfferZen,2019-04-01,2019-09-01
+6600000049,6600001049,https://job-boards.greenhouse.io/offerzen/jobs/6600000049,Engineering Associate,Engineering,South Africa,OfferZen,2019-01-01,2019-09-01
+6600000050,6600001050,https://job-boards.greenhouse.io/offerzen/jobs/6600000050,Sales Lead,Sales,South Africa,OfferZen,2019-04-01,2019-06-01
+6600000051,6600001051,https://job-boards.greenhouse.io/offerzen/jobs/6600000051,Product Manager,Product,Netherlands,OfferZen,2019-04-01,2019-12-01
+6600000052,6600001052,https://job-boards.greenhouse.io/offerzen/jobs/6600000052,Operations Specialist,Operations,Netherlands,OfferZen,2019-01-01,2019-07-01
+6600000053,6600001053,https://job-boards.greenhouse.io/offerzen/jobs/6600000053,Product Engineer,Product,Netherlands,OfferZen,2019-07-01,2020-03-01
+6600000054,6600001054,https://job-boards.greenhouse.io/offerzen/jobs/6600000054,Operations Associate,Operations,Netherlands,OfferZen,2019-04-01,2019-07-01
+6600000055,6600001055,https://job-boards.greenhouse.io/offerzen/jobs/6600000055,Marketing Manager,Marketing,South Africa,OfferZen,2019-12-01,2020-05-01
+6600000056,6600001056,https://job-boards.greenhouse.io/offerzen/jobs/6600000056,Sales Engineer,Sales,Netherlands,OfferZen,2019-09-01,2020-01-01
+6600000057,6600001057,https://job-boards.greenhouse.io/offerzen/jobs/6600000057,Sales Associate,Sales,South Africa,OfferZen,2019-03-01,2019-05-01
+6600000058,6600001058,https://job-boards.greenhouse.io/offerzen/jobs/6600000058,Sales Associate,Sales,South Africa,OfferZen,2019-07-01,2019-09-01
+6600000059,6600001059,https://job-boards.greenhouse.io/offerzen/jobs/6600000059,Operations Lead,Operations,South Africa,OfferZen,2019-10-01,2020-01-01
+6600000060,6600001060,https://job-boards.greenhouse.io/offerzen/jobs/6600000060,Marketing Director,Marketing,Netherlands,OfferZen,2019-05-01,2019-09-01
+6600000061,6600001061,https://job-boards.greenhouse.io/offerzen/jobs/6600000061,Marketing Lead,Marketing,Netherlands,OfferZen,2019-04-01,2019-09-01
+6600000062,6600001062,https://job-boards.greenhouse.io/offerzen/jobs/6600000062,Operations Intern,Operations,Netherlands,OfferZen,2019-08-01,2020-01-01
+6600000063,6600001063,https://job-boards.greenhouse.io/offerzen/jobs/6600000063,Sales Associate,Sales,South Africa,OfferZen,2019-08-01,2019-12-01
+6600000064,6600001064,https://job-boards.greenhouse.io/offerzen/jobs/6600000064,Sales Associate,Sales,South Africa,OfferZen,2019-09-01,2019-11-01
+6600000065,6600001065,https://job-boards.greenhouse.io/offerzen/jobs/6600000065,Data Engineer,Data,South Africa,OfferZen,2019-06-01,2019-11-01
+6600000066,6600001066,https://job-boards.greenhouse.io/offerzen/jobs/6600000066,Data Intern,Data,Netherlands,OfferZen,2019-03-01,2020-02-01
+6600000067,6600001067,https://job-boards.greenhouse.io/offerzen/jobs/6600000067,Engineering Associate,Engineering,Netherlands,OfferZen,2019-10-01,2020-06-01
+6600000068,6600001068,https://job-boards.greenhouse.io/offerzen/jobs/6600000068,Sales Engineer,Sales,Netherlands,OfferZen,2019-11-01,2020-01-01
+6600000069,6600001069,https://job-boards.greenhouse.io/offerzen/jobs/6600000069,Data Engineer,Data,South Africa,OfferZen,2020-02-01,2021-02-01
+6600000070,6600001070,https://job-boards.greenhouse.io/offerzen/jobs/6600000070,Data Director,Data,Netherlands,OfferZen,2020-10-01,2021-05-01
+6600000071,6600001071,https://job-boards.greenhouse.io/offerzen/jobs/6600000071,Data Associate,Data,South Africa,OfferZen,2020-11-01,2021-07-01
+6600000072,6600001072,https://job-boards.greenhouse.io/offerzen/jobs/6600000072,Product Director,Product,Netherlands,OfferZen,2020-01-01,2020-06-01
+6600000073,6600001073,https://job-boards.greenhouse.io/offerzen/jobs/6600000073,Product Specialist,Product,Netherlands,OfferZen,01/01/2020,06/01/2020
+6600000074,6600001074,https://job-boards.greenhouse.io/offerzen/jobs/6600000074,Operations Associate,Operations,Netherlands,OfferZen,2020-03-01,2020-09-01
+6600000075,6600001075,https://job-boards.greenhouse.io/offerzen/jobs/6600000075,Marketing Manager,Marketing,Netherlands,OfferZen,2020-09-01,2020-12-01
+6600000076,6600001076,https://job-boards.greenhouse.io/offerzen/jobs/6600000076,Sales Intern,Sales,South Africa,OfferZen,2020-09-01,2020-11-01
+6600000077,6600001077,https://job-boards.greenhouse.io/offerzen/jobs/6600000077,Data Manager,Data,South Africa,OfferZen,2020-07-01,2021-01-01
+6600000078,6600001078,https://job-boards.greenhouse.io/offerzen/jobs/6600000078,Data Engineer,Data,Netherlands,OfferZen,2020-01-01,2020-10-01
+6600000079,6600001079,https://job-boards.greenhouse.io/offerzen/jobs/6600000079,Marketing Specialist,Marketing,South Africa,OfferZen,2020-11-01,2021-02-01
+6600000080,6600001080,https://job-boards.greenhouse.io/offerzen/jobs/6600000080,Engineering Engineer,Engineering,Netherlands,OfferZen,2020-10-01,2021-06-01
+6600000081,6600001081,https://job-boards.greenhouse.io/offerzen/jobs/6600000081,Operations Manager,Operations,South Africa,OfferZen,2020-03-01,2020-09-01
+6600000082,6600001082,https://job-boards.greenhouse.io/offerzen/jobs/6600000082,Operations Specialist,Operations,Netherlands,OfferZen,2020-07-01,2020-11-01
+6600000083,6600001083,https://job-boards.greenhouse.io/offerzen/jobs/6600000083,Operations Intern,Operations,South Africa,OfferZen,2020-07-01,2020-10-01
+6600000084,6600001084,https://job-boards.greenhouse.io/offerzen/jobs/6600000084,Product Specialist,Product,South Africa,OfferZen,2020-04-01,2020-12-01
+6600000085,,,Data Director,Data,South Africa,OfferZen,2020-04-01,2020-08-01
+6600000086,6600001086,https://job-boards.greenhouse.io/offerzen/jobs/6600000086,Operations Intern,Operations,Netherlands,OfferZen,2020-06-01,2020-11-01
+6600000087,6600001087,https://job-boards.greenhouse.io/offerzen/jobs/6600000087,Sales Associate,Sales,Netherlands,OfferZen,2020-06-01,2020-10-01
+6600000088,6600001088,https://job-boards.greenhouse.io/offerzen/jobs/6600000088,Product Specialist,Product,Netherlands,OfferZen,2020-01-01,2020-06-01
+6600000089,6600001089,https://job-boards.greenhouse.io/offerzen/jobs/6600000089,Operations Associate,Operations,Netherlands,OfferZen,2020-01-01,2020-04-01
+6600000090,6600001090,https://job-boards.greenhouse.io/offerzen/jobs/6600000090,Product Lead,Product,Netherlands,OfferZen,2020-12-01,2021-07-01
+6600000091,6600001091,https://job-boards.greenhouse.io/offerzen/jobs/6600000091,Engineering Engineer,Engineering,South Africa,OfferZen,2020-07-01,2021-02-01
+6600000092,6600001092,https://job-boards.greenhouse.io/offerzen/jobs/6600000092,Data Manager,Data,South Africa,OfferZen,2020-12-01,2021-10-01
+6600000093,6600001093,https://job-boards.greenhouse.io/offerzen/jobs/6600000093,Engineering Manager,Engineering,South Africa,OfferZen,2021-06-01,2021-12-01
+6600000094,6600001094,https://job-boards.greenhouse.io/offerzen/jobs/6600000094,Marketing Director,Marketing,Netherlands,OfferZen,2021-10-01,2022-03-01
+6600000095,6600001095,https://job-boards.greenhouse.io/offerzen/jobs/6600000095,Sales Director,Sales,Netherlands,OfferZen,2021-09-01,2021-12-01
+6600000096,6600001096,https://job-boards.greenhouse.io/offerzen/jobs/6600000096,Product Associate,Product,Netherlands,OfferZen,2021-07-01,2022-02-01
+6600000097,6600001097,https://job-boards.greenhouse.io/offerzen/jobs/6600000097,Operations Director,Operations,South Africa,OfferZen,2021-07-01,2022-01-01
+6600000098,6600001098,https://job-boards.greenhouse.io/offerzen/jobs/6600000098,Marketing Lead,Marketing,South Africa,OfferZen,2021-10-01,2022-03-01
+6600000099,6600001099,https://job-boards.greenhouse.io/offerzen/jobs/6600000099,Engineering Engineer,Engineering,South Africa,OfferZen,2021-05-01,2021-10-01
+6600000100,6600001100,https://job-boards.greenhouse.io/offerzen/jobs/6600000100,Product Lead,Product,Netherlands,OfferZen,2021-08-01,2022-04-01
+6600000101,6600001101,https://job-boards.greenhouse.io/offerzen/jobs/6600000101,Marketing Intern,Marketing,South Africa,OfferZen,2021-09-01,2022-03-01
+6600000102,6600001102,https://job-boards.greenhouse.io/offerzen/jobs/6600000102,Marketing Specialist,Marketing,South Africa,OfferZen,2021-11-01,2022-02-01
+6600000103,6600001103,https://job-boards.greenhouse.io/offerzen/jobs/6600000103,Engineering Director,Engineering,Netherlands,OfferZen,2021-02-01,2021-06-01
+6600000104,6600001104,https://job-boards.greenhouse.io/offerzen/jobs/6600000104,Data Manager,Data,South Africa,OfferZen,2021-04-01,2021-10-01
+6600000105,6600001105,https://job-boards.greenhouse.io/offerzen/jobs/6600000105,Sales Intern,Sales,South Africa,OfferZen,2021-08-01,2021-08-01
+6600000106,6600001106,https://job-boards.greenhouse.io/offerzen/jobs/6600000106,Sales Associate,Sales,Netherlands,OfferZen,2021-07-01,2021-11-01
+6600000107,6600001107,https://job-boards.greenhouse.io/offerzen/jobs/6600000107,Operations Engineer,Operations,Netherlands,OfferZen,2021-08-01,2022-02-01
+6600000108,6600001108,https://job-boards.greenhouse.io/offerzen/jobs/6600000108,Operations Engineer,Operations,South Africa,OfferZen,2021-02-01,2021-08-01
+6600000109,6600001109,https://job-boards.greenhouse.io/offerzen/jobs/6600000109,Operations Intern,Operations,Netherlands,OfferZen,2021-01-01,2021-05-01
+6600000110,6600001110,https://job-boards.greenhouse.io/offerzen/jobs/6600000110,Sales Director,Sales,Netherlands,OfferZen,2021-03-01,2021-06-01
+6600000111,6600001111,https://job-boards.greenhouse.io/offerzen/jobs/6600000111,Engineering Intern,Engineering,Netherlands,OfferZen,2021-08-01,2022-03-01
+6600000112,6600001112,https://job-boards.greenhouse.io/offerzen/jobs/6600000112,Marketing Engineer,Marketing,Netherlands,OfferZen,2021-09-01,2022-03-01
+6600000113,6600001113,https://job-boards.greenhouse.io/offerzen/jobs/6600000113,Marketing Intern,Marketing,Netherlands,OfferZen,2021-08-01,2022-01-01
+6600000114,6600001114,https://job-boards.greenhouse.io/offerzen/jobs/6600000114,Operations Director,Operations,Netherlands,OfferZen,2021-09-01,2022-03-01
+6600000115,6600001115,https://job-boards.greenhouse.io/offerzen/jobs/6600000115,Operations Director,Operations,Netherlands,OfferZen,2021-08-01,2021-11-01
+6600000116,6600001116,https://job-boards.greenhouse.io/offerzen/jobs/6600000116,Data Specialist,Data,South Africa,OfferZen,2021-05-01,2022-02-01
+6600000117,6600001117,https://job-boards.greenhouse.io/offerzen/jobs/6600000117,Engineering Engineer,Engineering,South Africa,OfferZen,2022-03-01,2022-07-01
+6600000118,6600001118,https://job-boards.greenhouse.io/offerzen/jobs/6600000118,Product Manager,Product,South Africa,OfferZen,2022-12-01,2023-06-01
+6600000119,6600001119,,Product Lead,Product,Netherlands,OfferZen,2022-06-01,2023-02-01
+6600000120,6600001120,https://job-boards.greenhouse.io/offerzen/jobs/6600000120,Sales Intern,Sales,South Africa,OfferZen,2022-07-01,2022-10-01
+6600000121,6600001121,https://job-boards.greenhouse.io/offerzen/jobs/6600000121,Engineering Lead,Engineering,South Africa,OfferZen,2022-10-01,2023-04-01
+6600000122,6600001122,https://job-boards.greenhouse.io/offerzen/jobs/6600000122,Sales Intern,Sales,Netherlands,OfferZen,2022-05-01,2022-08-01
+6600000123,6600001123,https://job-boards.greenhouse.io/offerzen/jobs/6600000123,Product Specialist,Product,South Africa,OfferZen,2022-08-01,2023-02-01
+6600000124,6600001124,https://job-boards.greenhouse.io/offerzen/jobs/6600000124,Product Specialist,Product,Netherlands,OfferZen,2022-01-01,2022-09-01
+6600000125,6600001125,https://job-boards.greenhouse.io/offerzen/jobs/6600000125,Marketing Intern,Marketing,Netherlands,OfferZen,2022-12-01,2023-04-01
+6600000126,6600001126,https://job-boards.greenhouse.io/offerzen/jobs/6600000126,Product Lead,Product,South Africa,OfferZen,2022-10-01,2023-03-01
+6600000127,6600001127,https://job-boards.greenhouse.io/offerzen/jobs/6600000127,Engineering Lead,Engineering,South Africa,OfferZen,2022-02-01,2022-10-01
+6600000128,6600001128,https://job-boards.greenhouse.io/offerzen/jobs/6600000128,Operations Specialist,Operations,Netherlands,OfferZen,2022-03-01,2022-06-01
+6600000129,6600001129,https://job-boards.greenhouse.io/offerzen/jobs/6600000129,Product Specialist,Product,Netherlands,OfferZen,2022-04-01,2022-12-01
+6600000130,6600001130,https://job-boards.greenhouse.io/offerzen/jobs/6600000130,Data Specialist,Data,Netherlands,OfferZen,2022-05-01,2023-03-01
+6600000131,6600001131,https://job-boards.greenhouse.io/offerzen/jobs/6600000131,Sales Associate,Sales,Netherlands,OfferZen,2022-01-01,2022-05-01
+6600000132,6600001132,https://job-boards.greenhouse.io/offerzen/jobs/6600000132,Sales Manager,Sales,Netherlands,OfferZen,2022-04-01,2022-08-01
+6600000133,6600001133,https://job-boards.greenhouse.io/offerzen/jobs/6600000133,Marketing Engineer,Marketing,South Africa,OfferZen,2022-01-01,2022-05-01
+6600000134,6600001134,https://job-boards.greenhouse.io/offerzen/jobs/6600000134,Sales Lead,Sales,South Africa,OfferZen,2022-04-01,2022-06-01
+6600000135,6600001135,https://job-boards.greenhouse.io/offerzen/jobs/6600000135,Marketing Lead,Marketing,South Africa,OfferZen,2022-10-01,2023-02-01
+6600000136,6600001136,https://job-boards.greenhouse.io/offerzen/jobs/6600000136,Marketing Associate,Marketing,Netherlands,OfferZen,2022-06-01,2022-10-01
+6600000137,6600001137,https://job-boards.greenhouse.io/offerzen/jobs/6600000137,Engineering Manager,Engineering,South Africa,OfferZen,2022-03-01,2022-08-01
+6600000138,6600001138,https://job-boards.greenhouse.io/offerzen/jobs/6600000138,Engineering Director,Engineering,South Africa,OfferZen,2022-05-01,2022-12-01
+6600000139,6600001139,https://job-boards.greenhouse.io/offerzen/jobs/6600000139,Product Manager,Product,Netherlands,OfferZen,2022-12-01,2023-06-01
+6600000140,6600001140,https://job-boards.greenhouse.io/offerzen/jobs/6600000140,Engineering Intern,Engineering,South Africa,OfferZen,2022-02-01,2022-10-01
+6600000141,6600001141,https://job-boards.greenhouse.io/offerzen/jobs/6600000141,Data Specialist,Data,South Africa,OfferZen,2022-10-01,2023-02-01
+6600000142,6600001142,https://job-boards.greenhouse.io/offerzen/jobs/6600000142,Engineering Manager,Engineering,Netherlands,OfferZen,2022-11-01,2023-04-01
+6600000143,6600001143,https://job-boards.greenhouse.io/offerzen/jobs/6600000143,Engineering Intern,Engineering,Netherlands,OfferZen,2022-01-01,2022-07-01
+6600000144,6600001144,https://job-boards.greenhouse.io/offerzen/jobs/6600000144,Product Director,Product,South Africa,OfferZen,2022-07-01,2023-02-01
+6600000145,6600001145,https://job-boards.greenhouse.io/offerzen/jobs/6600000145,Product Director,Product,South Africa,OfferZen,2022-07-01,2023-01-01
+6600000146,6600001146,https://job-boards.greenhouse.io/offerzen/jobs/6600000146,Engineering Intern,Engineering,Netherlands,OfferZen,2022-10-01,2023-05-01
+6600000147,6600001147,https://job-boards.greenhouse.io/offerzen/jobs/6600000147,Product Specialist,Product,Netherlands,OfferZen,2022-07-01,2023-02-01
+6600000148,6600001148,https://job-boards.greenhouse.io/offerzen/jobs/6600000148,Operations Engineer,Operations,South Africa,OfferZen,2022-05-01,2022-11-01
+6600000149,6600001149,https://job-boards.greenhouse.io/offerzen/jobs/6600000149,Product Lead,Product,Netherlands,OfferZen,2022-06-01,2022-11-01
+6600000150,6600001150,https://job-boards.greenhouse.io/offerzen/jobs/6600000150,Data Specialist,Data,South Africa,OfferZen,2022-08-01,2023-03-01
+6600000151,6600001151,https://job-boards.greenhouse.io/offerzen/jobs/6600000151,Data Associate,Data,Netherlands,OfferZen,2022-05-01,2023-01-01
+6600000152,6600001152,https://job-boards.greenhouse.io/offerzen/jobs/6600000152,Sales Director,Sales,South Africa,OfferZen,2022-02-01,2022-04-01
+6600000153,6600001153,https://job-boards.greenhouse.io/offerzen/jobs/6600000153,Product Director,Product,Netherlands,OfferZen,2022-09-01,2023-03-01
+6600000154,6600001154,https://job-boards.greenhouse.io/offerzen/jobs/6600000154,Product Manager,Product,Netherlands,OfferZen,2022-08-01,2023-01-01
+6600000155,6600001155,https://job-boards.greenhouse.io/offerzen/jobs/6600000155,Data Specialist,Data,South Africa,OfferZen,2022-07-01,2023-02-01
+6600000156,6600001156,https://job-boards.greenhouse.io/offerzen/jobs/6600000156,Marketing Lead,Marketing,Netherlands,OfferZen,2022-08-01,2023-01-01
+6600000157,6600001157,https://job-boards.greenhouse.io/offerzen/jobs/6600000157,Marketing Specialist,Marketing,Netherlands,OfferZen,2022-06-01,2022-12-01
+6600000158,6600001158,https://job-boards.greenhouse.io/offerzen/jobs/6600000158,Data Director,Data,Netherlands,OfferZen,2022-04-01,2022-09-01
+6600000159,6600001159,https://job-boards.greenhouse.io/offerzen/jobs/6600000159,Operations Engineer,Operations,Netherlands,OfferZen,2023-02-01,2023-06-01
+6600000160,6600001160,https://job-boards.greenhouse.io/offerzen/jobs/6600000160,Operations Manager,Operations,Netherlands,OfferZen,2023-05-01,2023-10-01
+6600000161,6600001161,https://job-boards.greenhouse.io/offerzen/jobs/6600000161,Operations Engineer,Operations,Netherlands,OfferZen,2023-04-01,2023-09-01
+6600000162,6600001162,https://job-boards.greenhouse.io/offerzen/jobs/6600000162,Data Engineer,Data,South Africa,OfferZen,2023-12-01,2024-12-01
+6600000163,6600001163,https://job-boards.greenhouse.io/offerzen/jobs/6600000163,Data Specialist,Data,South Africa,OfferZen,2023-01-01,2024-01-01
+6600000164,6600001164,https://job-boards.greenhouse.io/offerzen/jobs/6600000164,Marketing Manager,Marketing,South Africa,OfferZen,2023-11-01,2024-05-01
+6600000165,6600001165,https://job-boards.greenhouse.io/offerzen/jobs/6600000165,Sales Lead,Sales,Netherlands,OfferZen,2023-08-01,2023-11-01
+6600000166,6600001166,https://job-boards.greenhouse.io/offerzen/jobs/6600000166,Data Intern,Data,South Africa,OfferZen,2023-01-01,2023-09-01
+6600000167,6600001167,https://job-boards.greenhouse.io/offerzen/jobs/6600000167,Product Lead,Product,South Africa,OfferZen,2023-02-01,2023-10-01
+6600000168,6600001168,https://job-boards.greenhouse.io/offerzen/jobs/6600000168,Sales Intern,Sales,South Africa,OfferZen,2023-03-01,2023-05-01
+6600000169,6600001169,https://job-boards.greenhouse.io/offerzen/jobs/6600000169,Engineering Manager,Engineering,Netherlands,OfferZen,2023-02-01,2023-06-01
+6600000170,6600001170,https://job-boards.greenhouse.io/offerzen/jobs/6600000170,Engineering Intern,Engineering,Netherlands,OfferZen,2023-10-01,2024-05-01
+6600000171,6600001171,https://job-boards.greenhouse.io/offerzen/jobs/6600000171,Engineering Lead,Engineering,South Africa,OfferZen,2023-09-01,2024-03-01
+6600000172,6600001172,https://job-boards.greenhouse.io/offerzen/jobs/6600000172,Product Specialist,Product,Netherlands,OfferZen,2023-10-01,2024-06-01
+6600000173,6600001173,https://job-boards.greenhouse.io/offerzen/jobs/6600000173,Engineering Manager,Engineering,South Africa,OfferZen,2023-10-01,2024-06-01
+6600000174,6600001174,https://job-boards.greenhouse.io/offerzen/jobs/6600000174,Operations Engineer,Operations,South Africa,OfferZen,2023-05-01,2023-08-01
+6600000175,6600001175,https://job-boards.greenhouse.io/offerzen/jobs/6600000175,Operations Engineer,Operations,South Africa,OfferZen,2023-09-01,2023-12-01
+6600000176,6600001176,https://job-boards.greenhouse.io/offerzen/jobs/6600000176,Sales Associate,Sales,Netherlands,OfferZen,2023-08-01,2023-12-01
+6600000177,6600001177,https://job-boards.greenhouse.io/offerzen/jobs/6600000177,Product Specialist,Product,Netherlands,OfferZen,2023-01-01,2023-07-01
+6600000178,6600001178,https://job-boards.greenhouse.io/offerzen/jobs/6600000178,Marketing Manager,Marketing,Netherlands,OfferZen,2023-12-01,2024-06-01
+6600000179,6600001179,https://job-boards.greenhouse.io/offerzen/jobs/6600000179,Marketing Lead,Marketing,South Africa,OfferZen,2023-05-01,2023-09-01
+6600000180,6600001180,https://job-boards.greenhouse.io/offerzen/jobs/6600000180,Sales Specialist,Sales,South Africa,OfferZen,2023-11-01,2024-01-01
+6600000181,6600001181,https://job-boards.greenhouse.io/offerzen/jobs/6600000181,Operations Intern,Operations,South Africa,OfferZen,2023-01-01,2023-05-01
+6600000182,,https://job-boards.greenhouse.io/offerzen/jobs/6600000182,Data Lead,,Netherlands,OfferZen,2023-08-01,2024-01-01
+6600000183,6600001183,https://job-boards.greenhouse.io/offerzen/jobs/6600000183,Marketing Specialist,Marketing,Netherlands,OfferZen,2023-12-01,2024-06-01
+6600000184,6600001184,https://job-boards.greenhouse.io/offerzen/jobs/6600000184,Engineering Associate,Engineering,Netherlands,OfferZen,2023-08-01,2023-11-01
+6600000185,6600001185,https://job-boards.greenhouse.io/offerzen/jobs/6600000185,Sales Associate,Sales,Netherlands,OfferZen,2023-12-01,2024-03-01
+6600000186,6600001186,https://job-boards.greenhouse.io/offerzen/jobs/6600000186,Data Director,Data,South Africa,OfferZen,2023-02-01,2023-09-01
+6600000187,6600001187,https://job-boards.greenhouse.io/offerzen/jobs/6600000187,Engineering Associate,Engineering,South Africa,OfferZen,2023-11-01,2024-04-01
+6600000188,6600001188,https://job-boards.greenhouse.io/offerzen/jobs/6600000188,Sales Director,Sales,South Africa,OfferZen,2023-08-01,2023-12-01
+6600000189,6600001189,https://job-boards.greenhouse.io/offerzen/jobs/6600000189,Product Director,Product,Netherlands,OfferZen,2023-03-01,2023-11-01
+6600000190,6600001190,https://job-boards.greenhouse.io/offerzen/jobs/6600000190,Product Lead,PRODUCT,South africa,OfferZen,2023-08-01,2024-03-01
+6600000191,6600001191,https://job-boards.greenhouse.io/offerzen/jobs/6600000191,Data Intern,Data,Netherlands,OfferZen,2023-11-01,2024-04-01
+6600000192,6600001192,https://job-boards.greenhouse.io/offerzen/jobs/6600000192,Operations Specialist,Operations,Netherlands,OfferZen,2023-07-01,2024-01-01
+6600000193,6600001193,https://job-boards.greenhouse.io/offerzen/jobs/6600000193,Marketing Lead,Marketing,Netherlands,OfferZen,2023-09-01,2023-12-01
+6600000194,6600001194,https://job-boards.greenhouse.io/offerzen/jobs/6600000194,Sales Manager,Sales,Netherlands,OfferZen,2023-05-01,2023-08-01
+6600000195,6600001195,https://job-boards.greenhouse.io/offerzen/jobs/6600000195,Product Lead,Product,South Africa,OfferZen,2023-11-01,2024-07-01
+6600000196,6600001196,https://job-boards.greenhouse.io/offerzen/jobs/6600000196,Sales Associate,Sales,South Africa,OfferZen,2023-09-01,2023-12-01
+6600000197,6600001197,https://job-boards.greenhouse.io/offerzen/jobs/6600000197,Product Specialist,Product,Netherlands,OfferZen,2023-01-01,2023-07-01
+6600000198,6600001198,https://job-boards.greenhouse.io/offerzen/jobs/6600000198,Engineering Director,Engineering,South Africa,OfferZen,2023-05-01,2023-11-01
+6600000199,6600001199,https://job-boards.greenhouse.io/offerzen/jobs/6600000199,Product Director,Product,South Africa,OfferZen,2023-01-01,2023-07-01
+6600000200,6600001200,https://job-boards.greenhouse.io/offerzen/jobs/6600000200,Operations Associate,Operations,Netherlands,OfferZen,2023-09-01,2023-12-01
+6600000201,6600001201,https://job-boards.greenhouse.io/offerzen/jobs/6600000201,Product Lead,Product,South Africa,OfferZen,2023-04-01,2023-09-01
+6600000202,6600001202,https://job-boards.greenhouse.io/offerzen/jobs/6600000202,Sales Specialist,Sales,South Africa,OfferZen,2023-08-01,2023-12-01
+6600000203,6600001203,https://job-boards.greenhouse.io/offerzen/jobs/6600000203,Engineering Lead,Engineering,Netherlands,OfferZen,2023-07-01,2024-01-01
+6600000204,6600001204,https://job-boards.greenhouse.io/offerzen/jobs/6600000204,Operations Lead,Operations,Netherlands,OfferZen,2023-09-01,2024-01-01
+6600000205,6600001205,https://job-boards.greenhouse.io/offerzen/jobs/6600000205,Operations Intern,Operations,South Africa,OfferZen,2023-02-01,2023-07-01
+6600000206,6600001206,https://job-boards.greenhouse.io/offerzen/jobs/6600000206,Product Intern,Product,Netherlands,OfferZen,2023-09-01,2024-04-01
+6600000207,6600001207,https://job-boards.greenhouse.io/offerzen/jobs/6600000207,Sales Intern,Sales,Netherlands,OfferZen,2023-12-01,2024-03-01
+6600000208,6600001208,https://job-boards.greenhouse.io/offerzen/jobs/6600000208,Engineering Associate,Engineering,Netherlands,OfferZen,2023-03-01,2023-09-01
+6600000209,6600001209,https://job-boards.greenhouse.io/offerzen/jobs/6600000209,Product Lead,Product,Netherlands,OfferZen,2023-06-01,2024-02-01
+6600000210,6600001210,https://job-boards.greenhouse.io/offerzen/jobs/6600000210,Data Associate,Data,South Africa,OfferZen,2023-12-01,2024-07-01
+6600000211,6600001211,https://job-boards.greenhouse.io/offerzen/jobs/6600000211,Product Specialist,Product,South Africa,OfferZen,2023-07-01,2023-12-01
+6600000212,6600001212,https://job-boards.greenhouse.io/offerzen/jobs/6600000212,Marketing Lead,Marketing,Netherlands,OfferZen,2023-12-01,2024-06-01
+6600000213,6600001213,https://job-boards.greenhouse.io/offerzen/jobs/6600000213,Marketing Engineer,Marketing,South Africa,OfferZen,2023-08-01,2023-11-01
+6600000214,6600001214,https://job-boards.greenhouse.io/offerzen/jobs/6600000214,Engineering Manager,Engineering,Netherlands,OfferZen,2023-02-01,2023-08-01
+6600000215,6600001215,https://job-boards.greenhouse.io/offerzen/jobs/6600000215,Engineering Engineer,Engineering,Netherlands,OfferZen,2023-01-01,2023-09-01
+6600000216,6600001216,https://job-boards.greenhouse.io/offerzen/jobs/6600000216,Product Intern,Product,South Africa,OfferZen,2023-02-01,2023-10-01
+6600000217,6600001217,https://job-boards.greenhouse.io/offerzen/jobs/6600000217,Data Director,Data,Netherlands,OfferZen,2023-10-01,2024-08-01
+6600000218,6600001218,https://job-boards.greenhouse.io/offerzen/jobs/6600000218,Sales Lead,Sales,Netherlands,OfferZen,2023-11-01,2024-03-01
+6600000219,6600001219,https://job-boards.greenhouse.io/offerzen/jobs/6600000219,Data Associate,Data,Netherlands,OfferZen,2024-09-01,2025-01-01
+6600000220,6600001220,https://job-boards.greenhouse.io/offerzen/jobs/6600000220,Sales Specialist,Sales,South Africa,OfferZen,2024-11-01,2025-03-01
+6600000221,6600001221,https://job-boards.greenhouse.io/offerzen/jobs/6600000221,Operations Intern,Operations,South Africa,OfferZen,2024-07-01,2024-10-01
+6600000222,6600001222,https://job-boards.greenhouse.io/offerzen/jobs/6600000222,Marketing Director,Marketing,South Africa,OfferZen,2024-08-01,2024-12-01
+6600000223,6600001223,https://job-boards.greenhouse.io/offerzen/jobs/6600000223,Data Intern,Data,South Africa,OfferZen,2024-01-01,2024-10-01
+6600000224,6600001224,https://job-boards.greenhouse.io/offerzen/jobs/6600000224,Sales Lead,Sales,Netherlands,OfferZen,2024-06-01,2024-09-01
+6600000225,6600001225,https://job-boards.greenhouse.io/offerzen/jobs/6600000225,Operations Associate,Operations,South Africa,OfferZen,2024-09-01,2025-03-01
+6600000226,6600001226,https://job-boards.greenhouse.io/offerzen/jobs/6600000226,Marketing Manager,Marketing,South Africa,OfferZen,2024-03-01,2024-07-01
+6600000227,6600001227,https://job-boards.greenhouse.io/offerzen/jobs/6600000227,Engineering Engineer,Engineering,Netherlands,OfferZen,2024-10-01,2025-06-01
+6600000228,6600001228,https://job-boards.greenhouse.io/offerzen/jobs/6600000228,Product Director,Product,South Africa,OfferZen,2024-04-01,2024-12-01
+6600000229,6600001229,https://job-boards.greenhouse.io/offerzen/jobs/6600000229,Data Intern,Data,Netherlands,OfferZen,2024-05-01,2024-09-01
+6600000230,6600001230,https://job-boards.greenhouse.io/offerzen/jobs/6600000230,Product Manager,Product,Netherlands,OfferZen,2024-11-01,2025-05-01
+6600000231,6600001231,https://job-boards.greenhouse.io/offerzen/jobs/6600000231,Product Director,Product,Netherlands,OfferZen,2024-10-01,2025-05-01
+6600000232,6600001232,https://job-boards.greenhouse.io/offerzen/jobs/6600000232,Product Engineer,Product,Netherlands,OfferZen,2024-08-01,2025-03-01
+6600000233,6600001233,https://job-boards.greenhouse.io/offerzen/jobs/6600000233,Product Lead,Product,Netherlands,OfferZen,2024-02-01,2024-08-01
+6600000234,6600001234,https://job-boards.greenhouse.io/offerzen/jobs/6600000234,Engineering Director,Engineering,Netherlands,OfferZen,2024-10-01,2025-03-01
+6600000235,6600001235,https://job-boards.greenhouse.io/offerzen/jobs/6600000235,Data Specialist,Data,South Africa,OfferZen,2024-11-01,2025-07-01
+6600000236,6600001236,https://job-boards.greenhouse.io/offerzen/jobs/6600000236,Sales Lead,Sales,South Africa,OfferZen,2024-10-01,2025-02-01
+6600000237,6600001237,https://job-boards.greenhouse.io/offerzen/jobs/6600000237,Data Engineer,Data,South Africa,OfferZen,2024-10-01,2025-07-01
+6600000238,6600001238,https://job-boards.greenhouse.io/offerzen/jobs/6600000238,Marketing Director,Marketing,South Africa,OfferZen,2024-10-01,2025-03-01
+6600000239,6600001239,https://job-boards.greenhouse.io/offerzen/jobs/6600000239,Marketing Director,Marketing,South Africa,OfferZen,2024-11-01,2025-02-01
+6600000240,6600001240,https://job-boards.greenhouse.io/offerzen/jobs/6600000240,Marketing Manager,Marketing,South Africa,OfferZen,2024-05-01,2024-11-01
+6600000241,6600001241,https://job-boards.greenhouse.io/offerzen/jobs/6600000241,Engineering Manager,Engineering,Netherlands,OfferZen,2024-12-01,2025-04-01
+6600000242,6600001242,https://job-boards.greenhouse.io/offerzen/jobs/6600000242,Data Engineer,Data,Netherlands,OfferZen,2024-12-01,2025-07-01
+6600000243,6600001243,https://job-boards.greenhouse.io/offerzen/jobs/6600000243,Operations Associate,Operations,South Africa,OfferZen,2024-09-01,2025-02-01
+6600000244,6600001244,https://job-boards.greenhouse.io/offerzen/jobs/6600000244,Engineering Intern,Engineering,Netherlands,OfferZen,2024-03-01,2024-08-01
+6600000245,6600001245,https://job-boards.greenhouse.io/offerzen/jobs/6600000245,Product Intern,Product,Netherlands,OfferZen,2024-12-01,2025-07-01
+6600000246,6600001246,https://job-boards.greenhouse.io/offerzen/jobs/6600000246,Sales Intern,Sales,Netherlands,OfferZen,2024-02-01,2024-04-01
+6600000247,6600001247,https://job-boards.greenhouse.io/offerzen/jobs/6600000247,Operations Manager,Operations,Netherlands,OfferZen,2024-09-01,2025-02-01
+6600000248,6600001248,https://job-boards.greenhouse.io/offerzen/jobs/6600000248,Product Lead,Product,South Africa,OfferZen,2024-05-01,2024-10-01
+6600000249,6600001249,https://job-boards.greenhouse.io/offerzen/jobs/6600000249,Data Intern,Data,Netherlands,OfferZen,2024-10-01,2025-07-01
+6600000250,6600001250,https://job-boards.greenhouse.io/offerzen/jobs/6600000250,Marketing Lead,Marketing,Netherlands,OfferZen,2024-02-01,2024-06-01
+6600000251,6600001251,https://job-boards.greenhouse.io/offerzen/jobs/6600000251,Sales Director,Sales,Netherlands,OfferZen,2024-10-01,2024-12-01
+6600000252,6600001252,https://job-boards.greenhouse.io/offerzen/jobs/6600000252,Sales Director,Sales,Netherlands,OfferZen,2024-12-01,2025-03-01
+6600000253,6600001253,https://job-boards.greenhouse.io/offerzen/jobs/6600000253,Product Manager,Product,South Africa,OfferZen,2024-03-01,2024-08-01
+6600000254,6600001254,https://job-boards.greenhouse.io/offerzen/jobs/6600000254,Data Engineer,Data,Netherlands,OfferZen,2024-02-01,2024-07-01
+6600000255,6600001255,https://job-boards.greenhouse.io/offerzen/jobs/6600000255,Engineering Specialist,Engineering,South Africa,OfferZen,2024-07-01,2025-01-01
+6600000256,6600001256,https://job-boards.greenhouse.io/offerzen/jobs/6600000256,Marketing Lead,Marketing,Netherlands,OfferZen,2024-10-01,2025-02-01
+6600000257,6600001257,https://job-boards.greenhouse.io/offerzen/jobs/6600000257,Marketing Specialist,Marketing,South Africa,OfferZen,2024-08-01,2025-02-01
+6600000258,6600001258,https://job-boards.greenhouse.io/offerzen/jobs/6600000258,Sales Lead,Sales,Netherlands,OfferZen,2024-04-01,2024-07-01
+6600000259,6600001259,https://job-boards.greenhouse.io/offerzen/jobs/6600000259,Operations Associate,Operations,Netherlands,OfferZen,2024-02-01,2024-07-01
+6600000260,6600001260,https://job-boards.greenhouse.io/offerzen/jobs/6600000260,Marketing Specialist,Marketing,Netherlands,OfferZen,2024-01-01,2024-07-01
+6600000261,6600001261,https://job-boards.greenhouse.io/offerzen/jobs/6600000261,Operations Director,Operations,South Africa,OfferZen,2024-08-01,2024-11-01
+6600000262,6600001262,https://job-boards.greenhouse.io/offerzen/jobs/6600000262,Operations Engineer,Operations,South Africa,OfferZen,2024-01-01,2024-06-01
+6600000263,6600001263,https://job-boards.greenhouse.io/offerzen/jobs/6600000263,Operations Associate,Operations,South Africa,OfferZen,2024-02-01,2024-06-01
+6600000264,6600001264,https://job-boards.greenhouse.io/offerzen/jobs/6600000264,Operations Intern,Operations,South Africa,OfferZen,2024-06-01,2024-10-01
+6600000265,6600001265,https://job-boards.greenhouse.io/offerzen/jobs/6600000265,Engineering Engineer,Engineering,South Africa,OfferZen,2024-05-01,2024-09-01
+6600000266,6600001266,https://job-boards.greenhouse.io/offerzen/jobs/6600000266,Engineering Director,Engineering,Netherlands,OfferZen,2024-03-01,2024-06-01
+6600000267,6600001267,https://job-boards.greenhouse.io/offerzen/jobs/6600000267,Sales Intern,Sales,South Africa,OfferZen,2024-01-01,2024-04-01
+6600000268,6600001268,https://job-boards.greenhouse.io/offerzen/jobs/6600000268,Operations Specialist,Operations,Netherlands,OfferZen,2024-01-01,2024-05-01
+6600000269,6600001269,https://job-boards.greenhouse.io/offerzen/jobs/6600000269,Sales Associate,Sales,South Africa,OfferZen,2024-12-01,2025-03-01
+6600000270,6600001270,https://job-boards.greenhouse.io/offerzen/jobs/6600000270,Sales Intern,Sales,South Africa,OfferZen,2024-08-01,2024-11-01
+6600000271,6600001271,https://job-boards.greenhouse.io/offerzen/jobs/6600000271,Data Engineer,Data,South Africa,OfferZen,2024-08-01,2025-07-01
+6600000272,6600001272,https://job-boards.greenhouse.io/offerzen/jobs/6600000272,Engineering Associate,Engineering,South Africa,OfferZen,2024-12-01,2025-07-01
+6600000273,6600001273,https://job-boards.greenhouse.io/offerzen/jobs/6600000273,Data Manager,Data,Netherlands,OfferZen,2024-11-01,2025-03-01
+6600000274,6600001274,https://job-boards.greenhouse.io/offerzen/jobs/6600000274,Product Lead,Product,Netherlands,OfferZen,07/01/2024,2024-12-01
+6600000275,6600001275,https://job-boards.greenhouse.io/offerzen/jobs/6600000275,Marketing Specialist,Marketing,Netherlands,OfferZen,2024-02-01,2024-05-01
+6600000276,6600001276,https://job-boards.greenhouse.io/offerzen/jobs/6600000276,Engineering Specialist,Engineering,South Africa,OfferZen,2024-02-01,2024-06-01
+6600000277,6600001277,https://job-boards.greenhouse.io/offerzen/jobs/6600000277,Engineering Associate,Engineering,Netherlands,OfferZen,2024-07-01,2025-02-01
+6600000278,6600001278,https://job-boards.greenhouse.io/offerzen/jobs/6600000278,Data Manager,Data,Netherlands,OfferZen,2024-09-01,2025-07-01
+6600000279,6600001279,https://job-boards.greenhouse.io/offerzen/jobs/6600000279,Marketing Engineer,Marketing,South Africa,OfferZen,2025-07-01,2025-07-01
+6600000280,6600001280,https://job-boards.greenhouse.io/offerzen/jobs/6600000280,Sales Director,Sales,Netherlands,OfferZen,2025-07-01,2025-07-01
+6600000281,6600001281,https://job-boards.greenhouse.io/offerzen/jobs/6600000281,Data Manager,Data,Netherlands,OfferZen,2025-03-01,2025-07-01
+6600000282,6600001282,https://job-boards.greenhouse.io/offerzen/jobs/6600000282,Sales Manager,Sales,South Africa,OfferZen,2025-02-01,2025-05-01
+6600000283,6600001283,https://job-boards.greenhouse.io/offerzen/jobs/6600000283,Marketing Associate,Marketing,Netherlands,OfferZen,2025-03-01,2025-06-01
+6600000284,6600001284,https://job-boards.greenhouse.io/offerzen/jobs/6600000284,Sales Intern,Sales,Netherlands,OfferZen,2025-06-01,2025-07-01
+6600000285,6600001285,https://job-boards.greenhouse.io/offerzen/jobs/6600000285,Product Specialist,Product,South Africa,OfferZen,2025-05-01,2025-07-01
+6600000286,6600001286,https://job-boards.greenhouse.io/offerzen/jobs/6600000286,Sales Lead,Sales,South Africa,OfferZen,2025-03-01,2025-07-01
+6600000287,6600001287,https://job-boards.greenhouse.io/offerzen/jobs/6600000287,Operations Manager,Operations,South Africa,OfferZen,2025-06-01,2025-07-01
+6600000288,6600001288,https://job-boards.greenhouse.io/offerzen/jobs/6600000288,Data Intern,Data,South Africa,OfferZen,2025-07-01,2025-07-01
+6600000289,6600001289,https://job-boards.greenhouse.io/offerzen/jobs/6600000289,Marketing Specialist,Marketing,Netherlands,OfferZen,2025-01-01,2025-05-01
+6600000290,6600001290,https://job-boards.greenhouse.io/offerzen/jobs/6600000290,Marketing Manager,Marketing,Netherlands,OfferZen,2025-06-01,2025-07-01
+6600000291,6600001291,https://job-boards.greenhouse.io/offerzen/jobs/6600000291,Marketing Director,Marketing,Netherlands,OfferZen,2025-02-01,2025-06-01
+6600000292,6600001292,https://job-boards.greenhouse.io/offerzen/jobs/6600000292,Marketing Lead,Marketing,South Africa,OfferZen,2025-02-01,2025-06-01
+6600000293,6600001293,https://job-boards.greenhouse.io/offerzen/jobs/6600000293,Product Specialist,Product,Netherlands,OfferZen,2025-06-01,2025-07-01
+6600000294,6600001294,https://job-boards.greenhouse.io/offerzen/jobs/6600000294,Engineering Engineer,Engineering,South Africa,OfferZen,2025-01-01,2025-05-01
+6600000295,6600001295,https://job-boards.greenhouse.io/offerzen/jobs/6600000295,Engineering Engineer,Engineering,Netherlands,OfferZen,2025-07-01,2025-07-01
+6600000296,6600001296,https://job-boards.greenhouse.io/offerzen/jobs/6600000296,Engineering Manager,Engineering,South Africa,OfferZen,2025-06-01,2025-07-01
+6600000297,6600001297,https://job-boards.greenhouse.io/offerzen/jobs/6600000297,Marketing Lead,Marketing,Netherlands,OfferZen,2025-01-01,2025-05-01
+6600000298,6600001298,https://job-boards.greenhouse.io/offerzen/jobs/6600000298,Engineering Specialist,Engineering,South Africa,OfferZen,2025-01-01,2025-05-01
+6600000299,6600001299,https://job-boards.greenhouse.io/offerzen/jobs/6600000299,Operations Specialist,Operations,South Africa,OfferZen,2025-05-01,2025-07-01
+6600000300,6600001300,https://job-boards.greenhouse.io/offerzen/jobs/6600000300,Marketing Lead,Marketing,Netherlands,OfferZen,2025-03-01,2025-07-01
+6600000301,6600001301,https://job-boards.greenhouse.io/offerzen/jobs/6600000301,Engineering Intern,Engineering,Netherlands,OfferZen,2025-02-01,2025-07-01
+6600000302,6600001302,https://job-boards.greenhouse.io/offerzen/jobs/6600000302,Marketing Lead,Marketing,South Africa,OfferZen,2025-07-01,2025-07-01
+6600000303,6600001303,https://job-boards.greenhouse.io/offerzen/jobs/6600000303,Marketing Lead,Marketing,Netherlands,OfferZen,2025-05-01,2025-07-01
+6600000304,6600001304,https://job-boards.greenhouse.io/offerzen/jobs/6600000304,Sales Lead,Sales,Netherlands,OfferZen,2025-03-01,2025-07-01
+6600000305,6600001305,https://job-boards.greenhouse.io/offerzen/jobs/6600000305,Marketing Intern,Marketing,Netherlands,OfferZen,2025-02-01,2025-07-01
+6600000306,6600001306,https://job-boards.greenhouse.io/offerzen/jobs/6600000306,Sales Lead,Sales,South Africa,OfferZen,2025-07-01,2025-07-01
+6600000307,6600001307,https://job-boards.greenhouse.io/offerzen/jobs/6600000307,Engineering Director,Engineering,South Africa,OfferZen,2025-07-01,2025-07-01
+6600000308,6600001308,https://job-boards.greenhouse.io/offerzen/jobs/6600000308,Data Manager,Data,South Africa,OfferZen,2025-06-01,2025-07-01
+6600000309,6600001309,https://job-boards.greenhouse.io/offerzen/jobs/6600000309,Engineering Director,Engineering,South Africa,OfferZen,2025-06-01,2025-07-01
+6600000310,6600001310,https://job-boards.greenhouse.io/offerzen/jobs/6600000310,Marketing Engineer,Marketing,South Africa,OfferZen,2025-04-01,2025-07-01
+6600000311,6600001311,https://job-boards.greenhouse.io/offerzen/jobs/6600000311,Data Intern,Data,South Africa,OfferZen,2025-03-01,2025-07-01
+6600000312,6600001312,https://job-boards.greenhouse.io/offerzen/jobs/6600000312,Marketing Lead,Marketing,South Africa,OfferZen,2025-03-01,2025-07-01
+6600000313,6600001313,https://job-boards.greenhouse.io/offerzen/jobs/6600000313,Marketing Specialist,Marketing,Netherlands,OfferZen,2025-05-01,2025-07-01
+6600000314,6600001314,https://job-boards.greenhouse.io/offerzen/jobs/6600000314,Engineering Lead,Engineering,South Africa,OfferZen,2025-05-01,2025-07-01
+6600000315,6600001315,https://job-boards.greenhouse.io/offerzen/jobs/6600000315,Sales Manager,Sales,South Africa,OfferZen,2025-06-01,2025-07-01
