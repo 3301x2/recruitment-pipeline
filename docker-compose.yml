@@ -1,16 +1,65 @@
+version: '3.8'
+
 services:
   postgres:
     image: postgres:16
-    restart: always
+    container_name: recruitment-postgres
     environment:
-      POSTGRES_DB: recruitment
       POSTGRES_USER: pipeline
       POSTGRES_PASSWORD: pipeline123
+      POSTGRES_DB: recruitment
     ports:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./sql/init_schema.sql:/docker-entrypoint-initdb.d/01_init.sql
+      - ./sql/init_schema.sql:/docker-entrypoint-initdb.d/01-init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pipeline -d recruitment"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  airflow:
+    image: apache/airflow:2.10.0-python3.12
+    container_name: recruitment-airflow
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      # Use the same postgres for Airflow metadata
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://pipeline:pipeline123@postgres:5432/recruitment
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
+      # Pipeline connection details (inside Docker network, postgres is the hostname)
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: recruitment
+      POSTGRES_USER: pipeline
+      POSTGRES_PASSWORD: pipeline123
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/project/scripts
+      - ./dbt_project:/opt/airflow/project/dbt_project
+      - ./tests:/opt/airflow/project/tests
+      - ./data:/opt/airflow/project/data
+      - ./.env:/opt/airflow/project/.env
+    entrypoint: >
+      bash -c "
+        pip install --quiet dbt-postgres psycopg2-binary python-dotenv requests pytest &&
+        airflow db migrate &&
+        airflow users create --username admin --password admin --firstname Prosper --lastname Sikhwari --role Admin --email admin@example.com 2>/dev/null || true &&
+        airflow webserver --port 8080 &
+        airflow scheduler
+      "
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname $(hostname) || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
 
 volumes:
   pgdata:
