@@ -1,12 +1,10 @@
-.env
 venv/
-__pycache__/
-*.pyc
-.DS_Store
-dbt_project/target/
-dbt_project/dbt_packages/
-dbt_project/logs/
 dbt-venv/
 dbt_project/target/
 dbt_project/logs/
 dbt_project/dbt_packages/
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+try.py
