@@ -16,8 +16,8 @@ from airflow.operators.bash import BashOperator
 
 PROJECT_DIR = "/opt/airflow/project"
 DBT_DIR = f"{PROJECT_DIR}/dbt_project"
-DBT_BIN = f"{PROJECT_DIR}/dbt-venv/bin/dbt"
-PYTHON_BIN = f"{PROJECT_DIR}/venv/bin/python"
+DBT_BIN = "dbt"
+PYTHON_BIN = "python3"
 
 default_args = {
     "owner": "prosper",
@@ -32,7 +32,7 @@ with DAG(
     default_args=default_args,
     description="Greenhouse recruitment data pipeline: ingest → dbt → test",
     schedule="0 6 * * *",
-    start_date=datetime(2025, 1, 1),
+    start_date=datetime(2024, 1, 1),
     catchup=False,
     tags=["recruitment", "greenhouse", "dbt"],
 ) as dag:

@@ -7,4 +7,5 @@ dbt_project/dbt_packages/
 __pycache__/
 *.pyc
 .env
-try.py
+dbt_project/.user.yml
+dashboard.html

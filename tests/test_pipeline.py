@@ -1,11 +1,12 @@
 """Pipeline data quality tests using pytest."""
+import os
 import psycopg2
 import pytest
 
 @pytest.fixture(scope="module")
 def db():
     conn = psycopg2.connect(
-        host="localhost", port=5432,
+        host=os.getenv("POSTGRES_HOST", "localhost"), port=5432,
         dbname="recruitment", user="pipeline", password="pipeline123"
     )
     yield conn

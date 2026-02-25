@@ -32,7 +32,7 @@ The raw data had several quality issues that the silver layer resolves:
 **Dimensions**:
 - `dim_department` — 10 distinct departments with surrogate keys
 - `dim_location` — 2 locations (Cape Town, South Africa)
-- `dim_date` — 4,383-row date spine (2015–2026) with year, quarter, month, day-of-week, is_weekend
+- `dim_date` — date spine (2015 to two years from today) with year, quarter, month, day-of-week, is_weekend
 
 **Fact**: `fact_jobs` — 320 rows with foreign keys to all dimensions, `is_open` flag, and `days_to_fill` calculated from `close_date - open_date`.
 
@@ -44,13 +44,12 @@ The raw data had several quality issues that the silver layer resolves:
 
 ### 4. Defense-in-depth testing strategy
 
-Three complementary test layers catch different categories of issues:
+Two complementary test layers catch different categories of issues:
 
 | Layer | Tool | Count | What it catches |
 |-------|------|-------|-----------------|
 | Schema tests | dbt test | 17 | Nulls, uniqueness, referential integrity, valid enums |
 | Integration tests | pytest | 12 | Cross-layer consistency, business rules, data contract violations |
-| Smoke tests | run_tests.py | 9 | Quick sanity checks across all layers |
 
 ### 5. Airflow orchestration
 

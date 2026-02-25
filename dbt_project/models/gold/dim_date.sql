@@ -1,8 +1,8 @@
--- date spine from 2015-01-01 to 2026-12-31
+-- date spine from 2015-01-01 to two years from today
 WITH date_spine AS (
     SELECT generate_series(
         '2015-01-01'::DATE,
-        '2026-12-31'::DATE,
+        (CURRENT_DATE + INTERVAL '2 years')::DATE,
         '1 day'::INTERVAL
     )::DATE AS full_date
 )

@@ -21,7 +21,7 @@ models:
           - not_null
 
   - name: dim_date
-    description: "Date dimension spine 2015-2026"
+    description: "Date dimension spine from 2015 to two years ahead"
     columns:
       - name: date_key
         tests:

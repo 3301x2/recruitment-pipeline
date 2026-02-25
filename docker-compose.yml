@@ -20,25 +20,23 @@ services:
       retries: 5
 
   airflow:
-    image: apache/airflow:2.10.0-python3.12
+    build: ./airflow
     container_name: recruitment-airflow
     depends_on:
       postgres:
         condition: service_healthy
     environment:
-      # Use the same postgres for Airflow metadata
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://pipeline:pipeline123@postgres:5432/recruitment
       AIRFLOW__CORE__EXECUTOR: SequentialExecutor
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
       AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
-      # Pipeline connection details (inside Docker network, postgres is the hostname)
       POSTGRES_HOST: postgres
       POSTGRES_PORT: "5432"
       POSTGRES_DB: recruitment
       POSTGRES_USER: pipeline
       POSTGRES_PASSWORD: pipeline123
     ports:
-      - "8080:8080"
+      - "8081:8080"
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/project/scripts
@@ -46,20 +44,13 @@ services:
       - ./tests:/opt/airflow/project/tests
       - ./data:/opt/airflow/project/data
       - ./.env:/opt/airflow/project/.env
-    entrypoint: >
-      bash -c "
-        pip install --quiet dbt-postgres psycopg2-binary python-dotenv requests pytest &&
-        airflow db migrate &&
-        airflow users create --username admin --password admin --firstname Prosper --lastname Sikhwari --role Admin --email admin@example.com 2>/dev/null || true &&
-        airflow webserver --port 8080 &
-        airflow scheduler
-      "
+    entrypoint: ["bash", "-c", "airflow db migrate && airflow users create --username admin --password admin --firstname Prosper --lastname Sikhwari --role Admin --email admin@example.com 2>/dev/null || true && (airflow webserver --port 8080 & airflow scheduler)"]
     healthcheck:
       test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname $(hostname) || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 5
-      start_period: 60s
+      start_period: 120s
 
 volumes:
   pgdata:

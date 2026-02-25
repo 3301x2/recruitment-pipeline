@@ -1,62 +1,73 @@
-1
+# AI Tools Usage
 
-i am building a data pipeline for greenhouse heres the public api:
+I used Claude (Anthropic) as a coding assistant throughout this project. Below are the key prompts and my reasoning for each phase.
 
-'https://api.greenhouse.io/v1/boards/offerzen/jobs?content=true'
+## 1. Project Scaffolding
 
-i have placed the historical data at : data/offerzen_jobs_history_raw.csv
+**Prompt:**
+> I am building a data pipeline for Greenhouse. Here's the public API: `https://api.greenhouse.io/v1/boards/offerzen/jobs?content=true`. I have placed the historical data at `data/offerzen_jobs_history_raw.csv`. The recommended stack is Python, PostgreSQL, dbt, and a medallion architecture with a star schema. Set up the project structure.
 
-here is the recomended stack : • Python for data processing and API integration
-• PostgreSQL as the data warehouse
-• DBT for data transformation and modeling
-• Medallion Architecture (Bronze/Silver/Gold layers) for data
-warehousing
-• Star Schema for dimensional modeling
+**My thinking:** I wanted to start with a clean project layout that separates concerns — ingestion scripts, dbt models, SQL definitions, and tests in their own directories. I gave the AI the full context upfront (API URL, file location, stack) so it could scaffold everything consistently rather than me wiring things together piecemeal.
 
-i have to ingest the data from : ◦ Ingest current job data from the Greenhouse API: curl -- location 'https://api.greenhouse.io/v1/boards/offerzen/ jobs?content=true'
+## 2. Bronze Ingestion Script
 
-process historical data, model,ochestrate and have analystics and insights have a read me  and a solutions md with explaining the achitercture and dessign decisions and trade offs 
+**Prompt:**
+> Write an ingestion script that pulls from the Greenhouse API and loads the historical CSV into PostgreSQL bronze tables. Use `psycopg2`, handle errors with transaction rollback, and truncate-before-load for idempotency.
 
-create a boilerplate for such a project which files and nothing but psued code in the files
+**My thinking:** I chose truncate-and-reload over upsert because with only ~320 records, full refresh is simpler and avoids stale data accumulating. I specifically asked for transaction rollback so a partial API failure wouldn't leave the database in an inconsistent state. The `safe_int()` helper was added after I noticed the CSV had some edge cases with empty numeric fields.
 
+## 3. Data Quality Discovery
 
-2
+**Prompt:**
+> Examine the CSV data and identify data quality issues that need to be fixed in the silver layer.
 
-i need scripts/ingest.py for the bronze layer. it must load data from two sources into postgres:
+**My thinking:** Before writing transformations, I wanted to understand what was actually wrong with the data. This revealed six issues: inconsistent casing (`OPERATIONS` vs `marketing`), mixed date formats (`MM/DD/YYYY` vs `YYYY-MM-DD`), missing departments, blank URLs, and the schema mismatch between the API's JSONB departments array and the CSV's flat text field. Understanding these upfront shaped the entire silver model design.
 
-1. greenhouse api — GET https://api.greenhouse.io/v1/boards/offerzen/jobs?content=true returns {"jobs": [...]} each job has id, internal_job_id, title, absolute_url, location.name, content, departments and offices arrays. load into bronze.raw_jobs_api, store departments and offices as JSONB
+## 4. dbt Silver Model
 
-2. historical csv at data/offerzen_jobs_history_raw.csv — 316 rows with job_id, internal_job_id, absolute_url, title, department, location, company_name, open_date, close_date. load into bronze.raw_jobs_history
+**Prompt:**
+> Create a dbt staging model `stg_jobs` that merges data from both bronze sources, fixes the data quality issues we found, and tracks the data source (api vs history).
 
-use psycopg2 and requests, load config from .env with python-dotenv. truncate and reload so its idempotent. print row counts after each load. keep it simple one file short comments
+**My thinking:** I chose to handle all cleaning in SQL/dbt rather than Python because: (a) it keeps the bronze layer as a true raw copy, (b) dbt gives me lineage tracking via `ref()` and `source()`, and (c) the fixes are declarative SQL (`INITCAP()`, `COALESCE`, regex date parsing) which is easier to audit than imperative Python. The `UNION ALL` approach with different column mappings for each source felt cleaner than trying to make one generic loader handle both schemas.
 
-3
+## 5. Gold Star Schema
 
-i need scripts/transform_silver.py. it reads from bronze.raw_jobs_api and bronze.raw_jobs_history, cleans the data and loads into silver.jobs
+**Prompt:**
+> Build a star schema in the gold layer: dim_department, dim_location, dim_date (date spine 2015-2026), and fact_jobs with foreign keys, an is_open flag, and a pre-computed days_to_fill metric.
 
-data quality issues to fix:
-- department casing inconsistent: OPERATIONS, PRODUCT need to be title case
-- location casing: "South africa" should be "South Africa"  
-- 1 row has empty department, default to 'Unknown'
-- some dates in MM/DD/YYYY format instead of YYYY-MM-DD, need to handle both
-- api jobs dont have open_date/close_date, use updated_at as open_date and close_date stays null (still open)
-- api jobs have department in a json array departments, extract first department name
+**My thinking:** A star schema was the natural choice for analytical queries. I specifically asked for a date spine because the assignment mentions "historical and trend analytics" — without a continuous date dimension, time-series queries (seasonal hiring trends, monthly volumes) would have gaps. The `days_to_fill` pre-computation avoids repeated `close_date - open_date` calculations in every downstream query.
 
-silver.jobs columns: job_id, internal_job_id, title, absolute_url, department, location, company_name, open_date (DATE), close_date (DATE), source ('api' or 'history'), ingested_at
+## 6. Testing Strategy
 
-use psycopg2, truncate and reload, same db config pattern as ingest.py
+**Prompt:**
+> Add dbt schema tests (not_null, unique, accepted_values, relationships) and pytest integration tests that validate cross-layer consistency.
 
-4
+**My thinking:** I wanted two complementary test layers. dbt tests catch structural issues (nulls, broken foreign keys, invalid enums) at the model level. pytest tests catch business logic violations that span layers — e.g., "the fact table row count should match silver," "open jobs must not have a close date," "days_to_fill must be non-negative." Together they provide defense-in-depth.
 
-im happy with the high level end to end pipeline working 
-— bronze ingestion loads 4 api jobs + 316 csv rows, 
-silver cleans and merges to 320 rows, 
-gold builds the star schema with 10 departments, 
-2 locations, 4383 dates, 
-320 fact rows. 
-all 9 data quality tests pass. 
-now i want to enhance this with dbt for the silver and gold transformations instead of raw python. 
+## 7. Airflow Orchestration
 
-set up a dbt project with models for stg_jobs (silver), 
-dim_department, dim_location, dim_date, fact_jobs (gold). include schema.yml with dbt tests (not_null, unique, relationships, accepted_values).
- the dbt models should do the same transformations as my python scripts — fix casing with INITCAP, handle mixed date formats, merge api + csv sources, build the star schema with dimensions and fact table
+**Prompt:**
+> Create an Airflow DAG with a linear dependency chain: ingest, dbt run, dbt test, pytest. Include retries and Docker Compose setup.
+
+**My thinking:** Linear dependencies enforce a fail-fast strategy — if bronze ingestion fails, dbt won't run on stale data. I chose 2 retries with 5-minute delay to handle transient API failures without masking real issues. Docker Compose was the simplest way to make the project reproducible — one command starts both PostgreSQL and Airflow.
+
+## 8. Analytics Queries
+
+**Prompt:**
+> Write SQL queries demonstrating recruitment metrics: open positions, historical counts by department/location, time-to-fill analysis, seasonal trends, and fill rates.
+
+**My thinking:** The assignment specifically asks for open jobs, department/location counts, and time-to-fill, so those were the baseline. I added seasonal trends (quarterly) and fill rate analysis because these are metrics a real recruitment team would care about — they show whether hiring is accelerating or slowing and which departments close roles fastest.
+
+## 9. Repo Cleanup — Removing Legacy Files
+
+**Prompt:**
+> I have untracked files and scripts that shouldn't be here. Check my repo structure and identify what doesn't belong.
+
+**My thinking:** My initial approach built the silver and gold transforms in pure Python (`transform_silver.py`, `transform_gold.py`). When I migrated to dbt, those scripts became dead code but I never cleaned them up. The AI flagged them alongside `run_tests.py` (replaced by dbt tests + pytest) and `run_pipeline.py` (a file from a completely different project that was committed by mistake). I also removed `AI_PROMPTS.md`'s raw chat log and replaced it with this curated version, deleted an empty `dbt_project/macros/` directory, and added `dbt_project/.user.yml` to `.gitignore` since it's a local dbt artifact that shouldn't be tracked.
+
+## How I Used AI Effectively
+
+- **Architecture decisions were mine.** I chose the medallion pattern, star schema, and ELT split based on industry experience. The AI helped implement them faster.
+- **I reviewed all generated code.** Several times I caught issues — e.g., the API response structure needed `departments->0->>'name'` JSONB extraction, not simple field access.
+- **Debugging was collaborative.** When the Airflow DAG failed in Docker, I diagnosed the root cause (container networking — `localhost` doesn't resolve across containers) and used the AI to apply the fix across all config files.
+- **I iterated on quality.** The initial test suite was minimal. I expanded it to 17 dbt tests + 12 pytest tests to cover referential integrity, business rules, and edge cases.
